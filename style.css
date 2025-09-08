@@ -1,0 +1,33 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: cadetblue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.short-poem {
+  display: block;
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+
+th,
+td {
+  vertical-align: top;
+  text-align: left;
+  padding: 3px;
+}
